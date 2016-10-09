@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_large_authr";
+   var indexlanguage = "por";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: white; border-top: solid lightgray 1pt; border-left:  solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; border-top: solid white 1pt; border-right: solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_detal_authr');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_detal_authr');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storyimgfolder">
+       <STORYCODES>
+<span class="Various_BoaSentenca link" id="ownlink_por_Various_BoaSentenca" onclick="findText('por_Various_BoaSentenca.htm');"></span><STORYCODE>
+<span class="Various_JoaoEOsSeusCamaradas link" id="ownlink_por_Various_JoaoEOsSeusCamaradas" onclick="findText('por_Various_JoaoEOsSeusCamaradas.htm');"></span><STORYCODE>
+<span class="Various_OFatoNovoDoSultao link" id="ownlink_por_Various_OFatoNovoDoSultao" onclick="findText('por_Various_OFatoNovoDoSultao.htm');"></span><STORYCODE>
+<span class="Various_OMalmequer link" id="ownlink_por_Various_OMalmequer" onclick="findText('por_Various_OMalmequer.htm');"></span><STORYCODE>
+<span class="Various_OOuro link" id="ownlink_por_Various_OOuro" onclick="findText('por_Various_OOuro.htm');"></span><STORYCODE>
+<span class="Various_OPinheiro link" id="ownlink_por_Various_OPinheiro" onclick="findText('por_Various_OPinheiro.htm');"></span><STORYCODE>
+<span class="Various_ORabequista link" id="ownlink_por_Various_ORabequista" onclick="findText('por_Various_ORabequista.htm');"></span><STORYCODE>
+<span class="Various_ORicoEOPobre link" id="ownlink_por_Various_ORicoEOPobre" onclick="findText('por_Various_ORicoEOPobre.htm');"></span><STORYCODE>
+<span class="Various_OTalisma link" id="ownlink_por_Various_OTalisma" onclick="findText('por_Various_OTalisma.htm');"></span><STORYCODE>
+<span class="Various_OsPessegos link" id="ownlink_por_Various_OsPessegos" onclick="findText('por_Various_OsPessegos.htm');"></span><STORYCODE>
+<span class="Various_Piloto link" id="ownlink_por_Various_Piloto" onclick="findText('por_Various_Piloto.htm');"></span><STORYCODE>
+<span class="Various_PresentePorPresente link" id="ownlink_por_Various_PresentePorPresente" onclick="findText('por_Various_PresentePorPresente.htm');"></span><STORYCODES>
+<span class="Various_BoaSentenca link" id="buylink_por_Various_BoaSentenca"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_BoaSentenca/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_JoaoEOsSeusCamaradas link" id="buylink_por_Various_JoaoEOsSeusCamaradas"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_JoaoEOsSeusCamaradas/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_OFatoNovoDoSultao link" id="buylink_por_Various_OFatoNovoDoSultao"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_OFatoNovoDoSultao/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_OMalmequer link" id="buylink_por_Various_OMalmequer"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_OMalmequer/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_OOuro link" id="buylink_por_Various_OOuro"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_OOuro/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_OPinheiro link" id="buylink_por_Various_OPinheiro"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_OPinheiro/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_ORabequista link" id="buylink_por_Various_ORabequista"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_ORabequista/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_ORicoEOPobre link" id="buylink_por_Various_ORicoEOPobre"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_ORicoEOPobre/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_OTalisma link" id="buylink_por_Various_OTalisma"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_OTalisma/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_OsPessegos link" id="buylink_por_Various_OsPessegos"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_OsPessegos/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_Piloto link" id="buylink_por_Various_Piloto"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_Piloto/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="Various_PresentePorPresente link" id="buylink_por_Various_PresentePorPresente"><a href="https://learn-to-read-foreign-languages.com/collections/portuguese"><img class="library" src="Various_PresentePorPresente/gray.jpg" style="width: 160px;"/></a></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

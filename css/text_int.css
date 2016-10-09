@@ -1,0 +1,45 @@
+﻿
+span.text
+{
+        mso-style-parent:"";
+	position: relative;
+	z-index: 1;
+	color: black;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+span.main
+{
+        mso-style-parent:"";
+	position: relative;
+	margin-bottom: 20px;
+	z-index: 1;
+	color: black;
+}       
+span.int
+{
+        mso-style-parent:"";
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	width: 8%;
+}
+span.intmess
+{
+	line-height: 1;
+}
+span.popmess
+{
+	line-height: 1;
+	display: none;
+}
+div.showinterlinear
+{
+        display: none;
+        visibility: hidden;
+}

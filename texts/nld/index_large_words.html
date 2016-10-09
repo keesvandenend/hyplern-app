@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_large_words";
+   var indexlanguage = "nld";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: lightgray; border-top: solid white 1pt; border-left:  solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: white; border-top: solid lightgray 1pt; border-right: solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_detal_words');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_detal_words');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storyimgfolder">
+       <STORYCODES>
+<span class="AB00586_Cohen_KamperRaadslieden link" id="ownlink_nld_Cohen_KamperRaadslieden" onclick="findText('nld_Cohen_KamperRaadslieden.htm');"></span><STORYCODE>
+<span class="AB01186_Cohen_VerborgenSchat link" id="ownlink_nld_Cohen_VerborgenSchat" onclick="findText('nld_Cohen_VerborgenSchat.htm');"></span><STORYCODE>
+<span class="AB01418_Cohen_ReuzenUitgestorven link" id="ownlink_nld_Cohen_ReuzenUitgestorven" onclick="findText('nld_Cohen_ReuzenUitgestorven.htm');"></span><STORYCODE>
+<span class="AB01521_Cohen_WeerterRogstekers link" id="ownlink_nld_Cohen_WeerterRogstekers" onclick="findText('nld_Cohen_WeerterRogstekers.htm');"></span><STORYCODE>
+<span class="AB02564_Cohen_Schelpengrot link" id="ownlink_nld_Cohen_Schelpengrot" onclick="findText('nld_Cohen_Schelpengrot.htm');"></span><STORYCODE>
+<span class="AB03647_Cohen_WitteWieven link" id="ownlink_nld_Cohen_WitteWieven" onclick="findText('nld_Cohen_WitteWieven.htm');"></span><STORYCODE>
+<span class="BC01264_Multatuli_MakelaarInKoffie link" id="ownlink_nld_Multatuli_MakelaarInKoffie" onclick="findText('nld_Multatuli_MakelaarInKoffie.htm');"></span><STORYCODE>
+<span class="BC01372_WolffDeken_SaraBurgerhart03en5 link" id="ownlink_nld_WolffDeken_SaraBurgerhart03en5" onclick="findText('nld_WolffDeken_SaraBurgerhart03en5.htm');"></span><STORYCODE>
+<span class="BC01420_WolffDeken_SaraBurgerhart10en11 link" id="ownlink_nld_WolffDeken_SaraBurgerhart10en11" onclick="findText('nld_WolffDeken_SaraBurgerhart10en11.htm');"></span><STORYCODE>
+<span class="BC01826_Hildebrand_FamilieStastokI link" id="ownlink_nld_Hildebrand_FamilieStastokI" onclick="findText('nld_Hildebrand_FamilieStastokI.htm');"></span><STORYCODE>
+<span class="BC02864_Hildebrand_FamilieStastokII link" id="ownlink_nld_Hildebrand_FamilieStastokII" onclick="findText('nld_Hildebrand_FamilieStastokII.htm');"></span><STORYCODE>
+<span class="BC03192_Hildebrand_FamilieStastokIII link" id="ownlink_nld_Hildebrand_FamilieStastokIII" onclick="findText('nld_Hildebrand_FamilieStastokIII.htm');"></span><STORYCODES>
+<span class="AB00586_Cohen_KamperRaadslieden link" id="buylink_nld_Cohen_KamperRaadslieden"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Cohen_KamperRaadslieden/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01186_Cohen_VerborgenSchat link" id="buylink_nld_Cohen_VerborgenSchat"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Cohen_VerborgenSchat/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01418_Cohen_ReuzenUitgestorven link" id="buylink_nld_Cohen_ReuzenUitgestorven"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Cohen_ReuzenUitgestorven/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01521_Cohen_WeerterRogstekers link" id="buylink_nld_Cohen_WeerterRogstekers"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Cohen_WeerterRogstekers/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB02564_Cohen_Schelpengrot link" id="buylink_nld_Cohen_Schelpengrot"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Cohen_Schelpengrot/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB03647_Cohen_WitteWieven link" id="buylink_nld_Cohen_WitteWieven"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Cohen_WitteWieven/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC01264_Multatuli_MakelaarInKoffie link" id="buylink_nld_Multatuli_MakelaarInKoffie"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Multatuli_MakelaarInKoffie/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC01372_WolffDeken_SaraBurgerhart03en5 link" id="buylink_nld_WolffDeken_SaraBurgerhart03en5"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="WolffDeken_SaraBurgerhart03en5/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC01420_WolffDeken_SaraBurgerhart10en11 link" id="buylink_nld_WolffDeken_SaraBurgerhart10en11"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="WolffDeken_SaraBurgerhart10en11/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC01826_Hildebrand_FamilieStastokI link" id="buylink_nld_Hildebrand_FamilieStastokI"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Hildebrand_FamilieStastokI/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC02864_Hildebrand_FamilieStastokII link" id="buylink_nld_Hildebrand_FamilieStastokII"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Hildebrand_FamilieStastokII/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC03192_Hildebrand_FamilieStastokIII link" id="buylink_nld_Hildebrand_FamilieStastokIII"><a href="https://learn-to-read-foreign-languages.com/collections/dutch"><img class="library" src="Hildebrand_FamilieStastokIII/gray.jpg" style="width: 160px;"/></a></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_detal_words";
+   var indexlanguage = "hun";
+   var indexbacktarg = "../../wanderlust.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: lightgray; border-top: solid white 1pt; border-left:  solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: white; border-top: solid lightgray 1pt; border-right: solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_authr');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_words');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_words');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../index.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storytxtfolder">
+       <STORYCODES>
+<span class="AB00455_Orczy_NotTrue link" id="ownlink_detail_hun_Orczy_NotTrue" onclick="findText('hun_Orczy_NotTrue.htm');"></span><STORYCODE>
+<span class="AB00606_Orczy_TheCharmedFrog link" id="ownlink_detail_hun_Orczy_TheCharmedFrog" onclick="findText('hun_Orczy_TheCharmedFrog.htm');"></span><STORYCODE>
+<span class="AB00706_Orczy_InvisibleShepherdBoy link" id="ownlink_detail_hun_Orczy_InvisibleShepherdBoy" onclick="findText('hun_Orczy_InvisibleShepherdBoy.htm');"></span><STORYCODE>
+<span class="AB00709_Orczy_TheDwarfsName link" id="ownlink_detail_hun_Orczy_TheDwarfsName" onclick="findText('hun_Orczy_TheDwarfsName.htm');"></span><STORYCODE>
+<span class="AB01232_Orczy_TheLoversGhost link" id="ownlink_detail_hun_Orczy_TheLoversGhost" onclick="findText('hun_Orczy_TheLoversGhost.htm');"></span><STORYCODE>
+<span class="AB02901_Orczy_GoodnessBegetsGoodness link" id="ownlink_detail_hun_Orczy_GoodnessBegetsGoodness" onclick="findText('hun_Orczy_GoodnessBegetsGoodness.htm');"></span><STORYCODE>
+<span class="BC01021_Moricz_ALofio link" id="ownlink_detail_hun_Moricz_ALofio" onclick="findText('hun_Moricz_ALofio.htm');"></span><STORYCODE>
+<span class="BC01033_Karinthy_APilota link" id="ownlink_detail_hun_Karinthy_APilota" onclick="findText('hun_Karinthy_APilota.htm');"></span><STORYCODE>
+<span class="BC01234_Moricz_ADebreceniCsordas link" id="ownlink_detail_hun_Moricz_ADebreceniCsordas" onclick="findText('hun_Moricz_ADebreceniCsordas.htm');"></span><STORYCODE>
+<span class="BC01401_Zoltan_AzElegtetel link" id="ownlink_detail_hun_Zoltan_AzElegtetel" onclick="findText('hun_Zoltan_AzElegtetel.htm');"></span><STORYCODE>
+<span class="BC01770_Moricz_AVegekJulija link" id="ownlink_detail_hun_Moricz_AVegekJulija" onclick="findText('hun_Moricz_AVegekJulija.htm');"></span><STORYCODES>
+<span class="AB00455_Orczy_NotTrue link" id="buylink_detail_hun_Orczy_NotTrue"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Barones Orczy</span>,&nbsp;<span>Nem Igaz</span>,&nbsp;<span>level AB, 455 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="AB00606_Orczy_TheCharmedFrog link" id="buylink_detail_hun_Orczy_TheCharmedFrog"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Barones Orczy</span>,&nbsp;<span>Az Elvar&#225;zsolt B&#233;ka</span>,&nbsp;<span>level AB, 606 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="AB00706_Orczy_InvisibleShepherdBoy link" id="buylink_detail_hun_Orczy_InvisibleShepherdBoy"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Barones Orczy</span>,&nbsp;<span>A L&#225;thatatlan Juh&#225;szleg&#233;ny</span>,&nbsp;<span>level AB, 706 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="AB00709_Orczy_TheDwarfsName link" id="buylink_detail_hun_Orczy_TheDwarfsName"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Barones Orczy</span>,&nbsp;<span>A T&#246;rpe Neve</span>,&nbsp;<span>level AB, 709 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="AB01232_Orczy_TheLoversGhost link" id="buylink_detail_hun_Orczy_TheLoversGhost"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Barones Orczy</span>,&nbsp;<span>A Szeret&#337; Szelleme</span>,&nbsp;<span>level AB, 1232 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="AB02901_Orczy_GoodnessBegetsGoodness link" id="buylink_detail_hun_Orczy_GoodnessBegetsGoodness"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Barones Orczy</span>,&nbsp;<span>J&#243; Tett Hely&#233;be J&#243;t V&#225;rj</span>,&nbsp;<span>level AB, 2901 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="BC01021_Moricz_ALofio link" id="buylink_detail_hun_Moricz_ALofio"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Zsigmond M&#243;ricz</span>,&nbsp;<span>A L&#243;fi&#243;</span>,&nbsp;<span>level BC, 1021 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="BC01033_Karinthy_APilota link" id="buylink_detail_hun_Karinthy_APilota"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Frigyes Karinthy</span>,&nbsp;<span>A Pil&#243;ta</span>,&nbsp;<span>level BC, 1033 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="BC01234_Moricz_ADebreceniCsordas link" id="buylink_detail_hun_Moricz_ADebreceniCsordas"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Zsigmond M&#243;ricz</span>,&nbsp;<span>A Debreceni Csord&#225;s</span>,&nbsp;<span>level BC, 1234 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="BC01401_Zoltan_AzElegtetel link" id="buylink_detail_hun_Zoltan_AzElegtetel"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Ambrus Zolt&#225;n</span>,&nbsp;<span>Az El&#233;gt&#233;tel</span>,&nbsp;<span>level BC, 1401 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="BC01770_Moricz_AVegekJulija link" id="buylink_detail_hun_Moricz_AVegekJulija"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/hungarian"><span>Zsigmond M&#243;ricz</span>,&nbsp;<span>A V&#233;gek Julija</span>,&nbsp;<span>level BC, 1770 words</span></a></FIELDSET></FORM></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

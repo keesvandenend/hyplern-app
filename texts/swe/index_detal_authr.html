@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_detal_authr";
+   var indexlanguage = "swe";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: white; border-top: solid lightgray 1pt; border-left:  solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; border-top: solid white 1pt; border-right: solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storytxtfolder">
+       <STORYCODES>
+<span class="Various_JattensNamn link" id="ownlink_detail_swe_Various_JattensNamn" onclick="findText('swe_Various_JattensNamn.htm');"></span><STORYCODE>
+<span class="Various_Klockaren link" id="ownlink_detail_swe_Various_Klockaren" onclick="findText('swe_Various_Klockaren.htm');"></span><STORYCODE>
+<span class="Various_LataKonungadottern link" id="ownlink_detail_swe_Various_LataKonungadottern" onclick="findText('swe_Various_LataKonungadottern.htm');"></span><STORYCODE>
+<span class="Various_LedsnaDrottningen link" id="ownlink_detail_swe_Various_LedsnaDrottningen" onclick="findText('swe_Various_LedsnaDrottningen.htm');"></span><STORYCODE>
+<span class="Various_StarkaPojken link" id="ownlink_detail_swe_Various_StarkaPojken" onclick="findText('swe_Various_StarkaPojken.htm');"></span><STORYCODE>
+<span class="Various_StuganAvOstar link" id="ownlink_detail_swe_Various_StuganAvOstar" onclick="findText('swe_Various_StuganAvOstar.htm');"></span><STORYCODE>
+<span class="Various_TreTrollpackorna link" id="ownlink_detail_swe_Various_TreTrollpackorna" onclick="findText('swe_Various_TreTrollpackorna.htm');"></span><STORYCODE>
+<span class="Zetterstrom_Ada link" id="ownlink_detail_swe_Zetterstrom_Ada" onclick="findText('swe_Zetterstrom_Ada.htm');"></span><STORYCODE>
+<span class="Zetterstrom_Adolf link" id="ownlink_detail_swe_Zetterstrom_Adolf" onclick="findText('swe_Zetterstrom_Adolf.htm');"></span><STORYCODE>
+<span class="Zetterstrom_Bromsen link" id="ownlink_detail_swe_Zetterstrom_Bromsen" onclick="findText('swe_Zetterstrom_Bromsen.htm');"></span><STORYCODE>
+<span class="Zetterstrom_Chapman link" id="ownlink_detail_swe_Zetterstrom_Chapman" onclick="findText('swe_Zetterstrom_Chapman.htm');"></span><STORYCODE>
+<span class="Zetterstrom_ChapmansMormor link" id="ownlink_detail_swe_Zetterstrom_ChapmansMormor" onclick="findText('swe_Zetterstrom_ChapmansMormor.htm');"></span><STORYCODE>
+<span class="Zetterstrom_FarbrorTeodar link" id="ownlink_detail_swe_Zetterstrom_FarbrorTeodar" onclick="findText('swe_Zetterstrom_FarbrorTeodar.htm');"></span><STORYCODE>
+<span class="Zetterstrom_KidneyAndBacon link" id="ownlink_detail_swe_Zetterstrom_KidneyAndBacon" onclick="findText('swe_Zetterstrom_KidneyAndBacon.htm');"></span><STORYCODE>
+<span class="Zetterstrom_Lovgrodan link" id="ownlink_detail_swe_Zetterstrom_Lovgrodan" onclick="findText('swe_Zetterstrom_Lovgrodan.htm');"></span><STORYCODES>
+<span class="Various_JattensNamn link" id="buylink_detail_swe_Various_JattensNamn"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>J&#228;ttens namn</span>,&nbsp;<span>level AB, 477 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Various_Klockaren link" id="buylink_detail_swe_Various_Klockaren"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>Den modiga klockaren</span>,&nbsp;<span>level AB, 164 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Various_LataKonungadottern link" id="buylink_detail_swe_Various_LataKonungadottern"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>Den lata konungadottern</span>,&nbsp;<span>level AB, 1770 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Various_LedsnaDrottningen link" id="buylink_detail_swe_Various_LedsnaDrottningen"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>Den ledsna drottningen</span>,&nbsp;<span>level AB, 2458 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Various_StarkaPojken link" id="buylink_detail_swe_Various_StarkaPojken"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>Den starka pojken</span>,&nbsp;<span>level AB, 1552 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Various_StuganAvOstar link" id="buylink_detail_swe_Various_StuganAvOstar"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>Stugan av ostar</span>,&nbsp;<span>level AB, 782 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Various_TreTrollpackorna link" id="buylink_detail_swe_Various_TreTrollpackorna"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Various Authors</span>,&nbsp;<span>De tre trollpackorna</span>,&nbsp;<span>level AB, 2644 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_Ada link" id="buylink_detail_swe_Zetterstrom_Ada"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Ada</span>,&nbsp;<span>level BC, 1335 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_Adolf link" id="buylink_detail_swe_Zetterstrom_Adolf"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Adolf</span>,&nbsp;<span>level BC, 1622 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_Bromsen link" id="buylink_detail_swe_Zetterstrom_Bromsen"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Bromsen</span>,&nbsp;<span>level BC, 1120 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_Chapman link" id="buylink_detail_swe_Zetterstrom_Chapman"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Chapmans &#228;ventyr</span>,&nbsp;<span>level BC, 2416 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_ChapmansMormor link" id="buylink_detail_swe_Zetterstrom_ChapmansMormor"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Chapmans mormor</span>,&nbsp;<span>level BC, 681 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_FarbrorTeodar link" id="buylink_detail_swe_Zetterstrom_FarbrorTeodar"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Farbror Teod&#229;r</span>,&nbsp;<span>level BC, 1124 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_KidneyAndBacon link" id="buylink_detail_swe_Zetterstrom_KidneyAndBacon"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>Kidney and bacon</span>,&nbsp;<span>level BC, 996 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zetterstrom_Lovgrodan link" id="buylink_detail_swe_Zetterstrom_Lovgrodan"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/swedish"><span>Hasse Zetterstr&#246;m</span>,&nbsp;<span>L&#246;vgrodan</span>,&nbsp;<span>level BC, 768 words</span></a></FIELDSET></FORM></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

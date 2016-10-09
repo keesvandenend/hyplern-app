@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_detal_authr";
+   var indexlanguage = "pol";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: white; border-top: solid lightgray 1pt; border-left:  solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; border-top: solid white 1pt; border-right: solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storytxtfolder">
+       <STORYCODES>
+<span class="Benda_Balwanki link" id="ownlink_detail_pol_Benda_Balwanki" onclick="findText('pol_Benda_Balwanki.htm');"></span><STORYCODE>
+<span class="Benda_Janosik link" id="ownlink_detail_pol_Benda_Janosik" onclick="findText('pol_Benda_Janosik.htm');"></span><STORYCODE>
+<span class="Benda_Justyna link" id="ownlink_detail_pol_Benda_Justyna" onclick="findText('pol_Benda_Justyna.htm');"></span><STORYCODE>
+<span class="Benda_Kopciuszek link" id="ownlink_detail_pol_Benda_Kopciuszek" onclick="findText('pol_Benda_Kopciuszek.htm');"></span><STORYCODE>
+<span class="Benda_KrolowejBaltyku link" id="ownlink_detail_pol_Benda_KrolowejBaltyku" onclick="findText('pol_Benda_KrolowejBaltyku.htm');"></span><STORYCODE>
+<span class="Benda_SmokuWawelskim link" id="ownlink_detail_pol_Benda_SmokuWawelskim" onclick="findText('pol_Benda_SmokuWawelskim.htm');"></span><STORYCODE>
+<span class="Benda_SpiacyRycerze link" id="ownlink_detail_pol_Benda_SpiacyRycerze" onclick="findText('pol_Benda_SpiacyRycerze.htm');"></span><STORYCODE>
+<span class="Benda_SzklanaGora link" id="ownlink_detail_pol_Benda_SzklanaGora" onclick="findText('pol_Benda_SzklanaGora.htm');"></span><STORYCODE>
+<span class="Benda_TrzechBraciach link" id="ownlink_detail_pol_Benda_TrzechBraciach" onclick="findText('pol_Benda_TrzechBraciach.htm');"></span><STORYCODE>
+<span class="Benda_WarsISawa link" id="ownlink_detail_pol_Benda_WarsISawa" onclick="findText('pol_Benda_WarsISawa.htm');"></span><STORYCODES>
+<span class="Benda_Balwanki link" id="buylink_detail_pol_Benda_Balwanki"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Ba&#322;wanki</span>,&nbsp;<span>level AB, 494 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_Janosik link" id="buylink_detail_pol_Benda_Janosik"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Janosik</span>,&nbsp;<span>level AB, 393 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_Justyna link" id="buylink_detail_pol_Benda_Justyna"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Justyna</span>,&nbsp;<span>level AB, 862 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_Kopciuszek link" id="buylink_detail_pol_Benda_Kopciuszek"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Kopciuszek</span>,&nbsp;<span>level AB, 1509 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_KrolowejBaltyku link" id="buylink_detail_pol_Benda_KrolowejBaltyku"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Krolowej Ba&#322;tyku</span>,&nbsp;<span>level AB, 266 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_SmokuWawelskim link" id="buylink_detail_pol_Benda_SmokuWawelskim"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Smoku Wawelskim</span>,&nbsp;<span>level AB, 375 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_SpiacyRycerze link" id="buylink_detail_pol_Benda_SpiacyRycerze"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>&#346;pi&#261;cy Rycerze</span>,&nbsp;<span>level AB, 310 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_SzklanaGora link" id="buylink_detail_pol_Benda_SzklanaGora"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Szklana Gora</span>,&nbsp;<span>level AB, 1084 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_TrzechBraciach link" id="buylink_detail_pol_Benda_TrzechBraciach"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Trzech Braciach</span>,&nbsp;<span>level AB, 286 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Benda_WarsISawa link" id="buylink_detail_pol_Benda_WarsISawa"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/polish"><span>Basia Benda</span>,&nbsp;<span>Wars I Sawa</span>,&nbsp;<span>level AB, 208 words</span></a></FIELDSET></FORM></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

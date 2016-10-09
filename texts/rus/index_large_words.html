@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_large_words";
+   var indexlanguage = "rus";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: lightgray; border-top: solid white 1pt; border-left:  solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: white; border-top: solid lightgray 1pt; border-right: solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_large_authr');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_large_authr');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_detal_words');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_detal_words');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storyimgfolder">
+       <STORYCODES>
+<span class="AB00476_Afanasiev_Nikita link" id="ownlink_rus_Afanasiev_Nikita" onclick="findText('rus_Afanasiev_Nikita.htm');"></span><STORYCODE>
+<span class="AB00549_Afanasiev_GusiLebedi link" id="ownlink_rus_Afanasiev_GusiLebedi" onclick="findText('rus_Afanasiev_GusiLebedi.htm');"></span><STORYCODE>
+<span class="AB00981_Afanasiev_BabaYaga link" id="ownlink_rus_Afanasiev_BabaYaga" onclick="findText('rus_Afanasiev_BabaYaga.htm');"></span><STORYCODE>
+<span class="AB01140_Afanasiev_Sneguroshka link" id="ownlink_rus_Afanasiev_Sneguroshka" onclick="findText('rus_Afanasiev_Sneguroshka.htm');"></span><STORYCODE>
+<span class="AB01290_Afanasiev_ChudesnayaRubashka link" id="ownlink_rus_Afanasiev_ChudesnayaRubashka" onclick="findText('rus_Afanasiev_ChudesnayaRubashka.htm');"></span><STORYCODE>
+<span class="AB01418_Afanasiev_Yelena link" id="ownlink_rus_Afanasiev_Yelena" onclick="findText('rus_Afanasiev_Yelena.htm');"></span><STORYCODE>
+<span class="AB01486_Afanasiev_Korolevich link" id="ownlink_rus_Afanasiev_Korolevich" onclick="findText('rus_Afanasiev_Korolevich.htm');"></span><STORYCODE>
+<span class="BC01380_Chekhov_Apothecary link" id="ownlink_rus_Chekhov_Apothecary" onclick="findText('rus_Chekhov_Apothecary.htm');"></span><STORYCODE>
+<span class="BC02123_Chekhov_Bet link" id="ownlink_rus_Chekhov_Bet" onclick="findText('rus_Chekhov_Bet.htm');"></span><STORYCODE>
+<span class="BC03382_Gogol_Carriage link" id="ownlink_rus_Gogol_Carriage" onclick="findText('rus_Gogol_Carriage.htm');"></span><STORYCODE>
+<span class="BC05096_Chekhov_Lady link" id="ownlink_rus_Chekhov_Lady" onclick="findText('rus_Chekhov_Lady.htm');"></span><STORYCODES>
+<span class="AB00476_Afanasiev_Nikita link" id="buylink_rus_Afanasiev_Nikita"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_Nikita/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB00549_Afanasiev_GusiLebedi link" id="buylink_rus_Afanasiev_GusiLebedi"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_GusiLebedi/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB00981_Afanasiev_BabaYaga link" id="buylink_rus_Afanasiev_BabaYaga"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_BabaYaga/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01140_Afanasiev_Sneguroshka link" id="buylink_rus_Afanasiev_Sneguroshka"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_Sneguroshka/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01290_Afanasiev_ChudesnayaRubashka link" id="buylink_rus_Afanasiev_ChudesnayaRubashka"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_ChudesnayaRubashka/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01418_Afanasiev_Yelena link" id="buylink_rus_Afanasiev_Yelena"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_Yelena/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="AB01486_Afanasiev_Korolevich link" id="buylink_rus_Afanasiev_Korolevich"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Afanasiev_Korolevich/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC01380_Chekhov_Apothecary link" id="buylink_rus_Chekhov_Apothecary"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Chekhov_Apothecary/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC02123_Chekhov_Bet link" id="buylink_rus_Chekhov_Bet"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Chekhov_Bet/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC03382_Gogol_Carriage link" id="buylink_rus_Gogol_Carriage"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Gogol_Carriage/gray.jpg" style="width: 160px;"/></a></span><STORYCODE>
+<span class="BC05096_Chekhov_Lady link" id="buylink_rus_Chekhov_Lady"><a href="https://learn-to-read-foreign-languages.com/collections/russian"><img class="library" src="Chekhov_Lady/gray.jpg" style="width: 160px;"/></a></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

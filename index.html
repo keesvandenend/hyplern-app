@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+          
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+    <meta http-equiv="Content-Security-Policy" content="*">
+    <title>HypLern</title>
+          
+    <!-- HypLern references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/generic.css" rel="stylesheet" />
+    <link href="css/text.css" rel="stylesheet" />
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+          
+    <script src="scripts/index.js"></script>
+    <script src="scripts/language.js"></script>
+    <script src="scripts/keys.js"></script>
+    <script src="scripts/options.js"></script>
+    <script src="scripts/hyplern.js"></script>
+    <script src="scripts/menus.js"></script>
+          
+  </head>
+  
+  <body id="wholething" style="visibility: visible;">
+    <script language=JavaScript type=text/javascript>
+      var curpint = "";
+    </script>
+          
+    <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+    <div style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+    <div style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+    <div style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+    <div style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+    <div style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+    <div style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+    <div style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+    <div style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+    <div style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+    <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+    <div style="width: 75%; position: fixed; left: 50%; margin-left: -37.5%; top: 52px; font-family: arial; font-size: 14pt; color: darkblue; z-index: 20000;"><CENTER><B>HUNGARIAN</B></CENTER></div>
+    <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="http://www.learn-to-read-foreign-languages.com"><img src="images/AppTrns.gif"></a></div>
+    <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="http://www.learn-to-read-foreign-languages.com"><img src="images/AppHome.gif"></a></div>
+    <br><br><br><br>
+          
+    <div style="text-align: center;">
+      <span id="dashboard_libr" class="dashboard_libr link" onclick="actionDashboard('libr');"><img class="library" src="images/Library.jpg" /></span> <!-- multiple pictures loaded in scroll through format, lang taken from preferences, "hun" & "index_large_words" -->
+      <span id="dashboard_last" class="dashboard_last link" onclick="actionDashboard('last');"><img class="loading" src="images/Loading.jpg" /></span>
+      <!-- <span id="dashboard_prog" class="dashboard_prog link" onclick="actionDashboard('prog');"></span> this one last, mini pics of story tree plus accomplished percentage bar for read & words / roots -->
+      <span id="dashboard_word" class="dashboard_word link" onclick="showMenu('MyWords');"><img class="library" src="images/MyWords.jpg" /></span>  <!-- show word list small version -->
+      <!-- <span id="dashboard_help" class="dashboard_help link" onclick="actionDashboard('help');"><a href="help.html"><img src="images/indonesian.jpg" /></a></span> -->
+      <span id="dashboard_conf" class="dashboard_conf link" onclick="actionDashboard('conf');"><a href="#"><img class="library" src="images/Settings.jpg" /></a></span>
+      <!-- <span id="dashboard_xpln" class="dashboard_xpln link" onclick="actionDashboard('xpln');"><a href="theory.html"><img src="images/theory.jpg" /></a></span> -->
+      <span id="dashboard_lust" class="dashboard_lust link"><a href="wanderlust.html"><img class="library" src="images/WanderLust.jpg" /></a></span>
+      <span id="dashboard_what" class="dashboard_what link"><a href="about.html"><img class="library" src="images/About.jpg" /></a></span>
+    </div>
+          
+    <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+    <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+    <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+    <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+    <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+    <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+    <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+    <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+    <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+    <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+
+    <!-- message template -->
+    <div id="msg" class="block msg"><span id="msg_block" class="msg"></span><span id="dontshow" class="link dontshow" onclick="interruptFade()"><br><br>(continue)</span></div>
+    <div id="glass" class="tinted"></div>
+
+    <!-- menu template -->
+    <div id="menu" class="menu menumiddle">
+      <span id="menu_item0"  class="link menuitem" style="z-index: 1000000000;"  onclick="actionItem(0)" ><span id="menu_itemtext0"  class="link menutext"></span></span>
+      <span id="menu_item1"  class="link menuitem" style="z-index: 2000000000;"  onclick="actionItem(1)" ><span id="menu_itemtext1"  class="link menutext"></span></span>
+      <span id="menu_item2"  class="link menuitem" style="z-index: 3000000000;"  onclick="actionItem(2)" ><span id="menu_itemtext2"  class="link menutext"></span></span>
+      <span id="menu_item3"  class="link menuitem" style="z-index: 4000000000;"  onclick="actionItem(3)" ><span id="menu_itemtext3"  class="link menutext"></span></span>
+      <span id="menu_item4"  class="link menuitem" style="z-index: 5000000000;"  onclick="actionItem(4)" ><span id="menu_itemtext4"  class="link menutext"></span></span>
+      <span id="menu_item5"  class="link menuitem" style="z-index: 6000000000;"  onclick="actionItem(5)" ><span id="menu_itemtext5"  class="link menutext"></span></span>
+      <span id="menu_item6"  class="link menuitem" style="z-index: 7000000000;"  onclick="actionItem(6)" ><span id="menu_itemtext6"  class="link menutext"></span></span>
+      <span id="menu_item7"  class="link menuitem" style="z-index: 8000000000;"  onclick="actionItem(7)" ><span id="menu_itemtext7"  class="link menutext"></span></span>
+      <span id="menu_item8"  class="link menuitem" style="z-index: 9000000000;"  onclick="actionItem(8)" ><span id="menu_itemtext8"  class="link menutext"></span></span>
+      <span id="menu_item9"  class="link menuitem" style="z-index: 10000000000;" onclick="actionItem(9)" ><span id="menu_itemtext9"  class="link menutext"></span></span>
+      <span id="menu_item10" class="link menuitem" style="z-index: 11000000000;" onclick="actionItem(10)"><span id="menu_itemtext10" class="link menutext"></span></span>
+      <span id="menu_item11" class="link menuitem" style="z-index: 12000000000;" onclick="actionItem(11)"><span id="menu_itemtext11" class="link menutext"></span></span>
+      <span id="menu_item12" class="link menuitem" style="z-index: 13000000000;" onclick="actionItem(12)"><span id="menu_itemtext12" class="link menutext"></span></span>
+      <span id="menu_item13" class="link menuitem" style="z-index: 14000000000;" onclick="actionItem(13)"><span id="menu_itemtext13" class="link menutext"></span></span>
+      <span id="menu_item14" class="link menuitem" style="z-index: 15000000000;" onclick="actionItem(14)"><span id="menu_itemtext14" class="link menutext"></span></span>
+      <span id="menu_item15" class="link menuitem" style="z-index: 16000000000;" onclick="actionItem(15)"><span id="menu_itemtext15" class="link menutext"></span></span>
+      <span id="menu_item16" class="link menuitem" style="z-index: 17000000000;" onclick="actionItem(16)"><span id="menu_itemtext16" class="link menutext"></span></span>
+      <span id="menu_item17" class="link menuitem" style="z-index: 18000000000;" onclick="actionItem(17)"><span id="menu_itemtext17" class="link menutext"></span></span>
+      <span id="menu_item18" class="link menuitem" style="z-index: 19000000000;" onclick="actionItem(18)"><span id="menu_itemtext18" class="link menutext"></span></span>
+      <span id="menu_item19" class="link menuitem" style="z-index: 20000000000;" onclick="actionItem(19)"><span id="menu_itemtext19" class="link menutext"></span></span>
+      <span id="menu_item20" class="link menuitem" style="z-index: 21000000000;" onclick="actionItem(20)"><span id="menu_itemtext20" class="link menutext"></span></span>
+      <span id="menu_item21" class="link menuitem" style="z-index: 22000000000;" onclick="actionItem(21)"><span id="menu_itemtext21" class="link menutext"></span></span>
+      <span id="menu_item22" class="link menuitem" style="z-index: 23000000000;" onclick="actionItem(22)"><span id="menu_itemtext22" class="link menutext"></span></span>
+      <span id="menu_item23" class="link menuitem" style="z-index: 24000000000;" onclick="actionItem(23)"><span id="menu_itemtext23" class="link menutext"></span></span>
+      <span id="menu_item24" class="link menuitem" style="z-index: 25000000000;" onclick="actionItem(24)"><span id="menu_itemtext24" class="link menutext"></span></span>
+      <span id="menu_item25" class="link menuitem" style="z-index: 26000000000;" onclick="actionItem(25)"><span id="menu_itemtext25" class="link menutext"></span></span>
+    </div>
+            
+    <!-- logging template -->
+    <span class="logging">
+      <span id="log_devicestart"></span><br>
+      <span id="log_devicepath"></span><br>
+      <span id="log_devicelog"></span><br>
+      <span id="log_devicekeys"></span><br>
+      <span id="log_devicekey0"></span><span id="log_devicekeytry0"></span><span id="log_devicekeyyes0"></span><span id="log_devicekeyno0"></span>
+      <span id="log_devicekey1"></span><span id="log_devicekeytry1"></span><span id="log_devicekeyyes1"></span><span id="log_devicekeyno1"></span>
+      <span id="log_devicekey2"></span><span id="log_devicekeytry2"></span><span id="log_devicekeyyes2"></span><span id="log_devicekeyno2"></span>
+      <span id="log_devicekey3"></span><span id="log_devicekeytry3"></span><span id="log_devicekeyyes3"></span><span id="log_devicekeyno3"></span>
+      <span id="log_devicekey4"></span><span id="log_devicekeytry4"></span><span id="log_devicekeyyes4"></span><span id="log_devicekeyno4"></span>
+      <span id="log_devicekey5"></span><span id="log_devicekeytry5"></span><span id="log_devicekeyyes5"></span><span id="log_devicekeyno5"></span>
+      <span id="log_devicekey6"></span><span id="log_devicekeytry6"></span><span id="log_devicekeyyes6"></span><span id="log_devicekeyno6"></span>
+      <span id="log_devicekey7"></span><span id="log_devicekeytry7"></span><span id="log_devicekeyyes7"></span><span id="log_devicekeyno7"></span>
+      <span id="log_devicekey8"></span><span id="log_devicekeytry8"></span><span id="log_devicekeyyes8"></span><span id="log_devicekeyno8"></span>
+      <span id="log_devicekey9"></span><span id="log_devicekeytry9"></span><span id="log_devicekeyyes9"></span><span id="log_devicekeyno9"></span>
+      <span id="log_devicekey10"></span><span id="log_devicekeytry10"></span><span id="log_devicekeyyes10"></span><span id="log_devicekeyno10"></span>
+      <span id="log_devicekey11"></span><span id="log_devicekeytry11"></span><span id="log_devicekeyyes11"></span><span id="log_devicekeyno11"></span>
+      <span id="log_devicekey12"></span><span id="log_devicekeytry12"></span><span id="log_devicekeyyes12"></span><span id="log_devicekeyno12"></span>
+      <span id="log_devicekey13"></span><span id="log_devicekeytry13"></span><span id="log_devicekeyyes13"></span><span id="log_devicekeyno13"></span>
+      <span id="log_devicekey14"></span><span id="log_devicekeytry14"></span><span id="log_devicekeyyes14"></span><span id="log_devicekeyno14"></span>
+      <span id="log_devicekey15"></span><span id="log_devicekeytry15"></span><span id="log_devicekeyyes15"></span><span id="log_devicekeyno15"></span>
+      <span id="log_devicekey16"></span><span id="log_devicekeytry16"></span><span id="log_devicekeyyes16"></span><span id="log_devicekeyno16"></span>
+      <span id="log_devicekey17"></span><span id="log_devicekeytry17"></span><span id="log_devicekeyyes17"></span><span id="log_devicekeyno17"></span>
+      <span id="log_devicekey18"></span><span id="log_devicekeytry18"></span><span id="log_devicekeyyes18"></span><span id="log_devicekeyno18"></span>
+      <span id="log_devicekey19"></span><span id="log_devicekeytry19"></span><span id="log_devicekeyyes19"></span><span id="log_devicekeyno19"></span>
+      <span id="log_devicekey20"></span><span id="log_devicekeytry20"></span><span id="log_devicekeyyes20"></span><span id="log_devicekeyno20"></span>
+      <span id="log_devicekey21"></span><span id="log_devicekeytry21"></span><span id="log_devicekeyyes21"></span><span id="log_devicekeyno21"></span>
+      <span id="log_devicekey22"></span><span id="log_devicekeytry22"></span><span id="log_devicekeyyes22"></span><span id="log_devicekeyno22"></span>
+      <span id="log_devicekey23"></span><span id="log_devicekeytry23"></span><span id="log_devicekeyyes23"></span><span id="log_devicekeyno23"></span>
+      <span id="log_devicekey24"></span><span id="log_devicekeytry24"></span><span id="log_devicekeyyes24"></span><span id="log_devicekeyno24"></span>
+      <span id="log_devicekey25"></span><span id="log_devicekeytry25"></span><span id="log_devicekeyyes25"></span><span id="log_devicekeyno25"></span>
+      <span id="log_devicekey26"></span><span id="log_devicekeytry26"></span><span id="log_devicekeyyes26"></span><span id="log_devicekeyno26"></span>
+      <span id="log_devicekeynull"></span><span id="log_devicekeytrynull"></span><span id="log_devicekeyyesnull"></span><span id="log_devicekeynonull"></span><br>
+      <span id="log_devicekeysfinish"></span><br>
+      <span id="log_d"></span>
+      <span id="log_e"></span>
+      <span id="log_f"></span>
+      <span id="log_g"></span>
+    </span>
+  </body>
+</html>

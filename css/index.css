@@ -1,0 +1,66 @@
+﻿
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+a
+{
+    text-underline: none;
+}
+.link
+{
+    cursor: pointer;
+    text-underline: none;
+    text-decoration: none !important;
+}
+fieldset.link
+{
+    display: inline;
+    border: none;
+}
+img.index {
+    vertical-align: text-top;
+}
+img.library {
+    max-width: 49%;
+}
+div.storytxtfolder {
+    position: absolute;
+    left: 50%;
+    width: 99%;
+    margin-left: -180px;
+    max-width: 420px;
+}
+div.storyimgfolder {
+    position: absolute;
+    left: 50%;
+    width: 99%;
+    margin-left: -160px;
+    max-width: 420px;
+}
+div.wanderimgfolder {
+    position: absolute;
+    left: 50%;
+    width: 99%;
+    margin-left: -140px;
+    max-width: 420px;
+}
+div.textblock {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+}
+div.copyright {
+    mso-style-parent:"";
+    left: 0%;
+    width: 100%;
+    margin-left: -100px;
+}

@@ -1,0 +1,28 @@
+﻿/* globals console,document,window,cordova */
+var textnames = [
+"hun_Orczy_NotTrue",
+"hun_Moricz_ALofio",
+"fra_Lemaitre_ABC",
+"fra_Guerber_LesTroisOurs",
+"fra_Maupassant_WalterSchnaffsI",
+"fra_Maupassant_LeBonheurI",
+"fra_Balzac_LAM01LInconnue",
+"nld_Cohen_KamperRaadslieden",
+"nld_Hildebrand_FamilieStastokI",
+"deu_Grimm_DieRube",
+"deu_Kafka_SchakaleUndAraber",
+"rus_Afanasiev_Yelena",
+"rus_Chekhov_Apothecary",
+"spa_Various_ElPrincipeOso",
+"spa_Alarcon_LaBuenaventuraI",
+"swe_Various_StarkaPojken",
+"swe_Zetterstrom_KidneyAndBacon",
+"ita_Collodi_PelleDAsinoI",
+"ita_Marchi_UnRegalo",
+"ind_Various_KantjilMacanDanBayangannya",
+"ind_Various_KantjilDanKuraKura",
+"pol_Benda_WarsISawa",
+"pol_Benda_Justyna",
+"por_Various_OOuro",
+"por_Various_ORicoEOPobre"
+];

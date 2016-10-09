@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_detal_authr";
+   var indexlanguage = "ita";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: white; border-top: solid lightgray 1pt; border-left:  solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; border-top: solid white 1pt; border-right: solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storytxtfolder">
+       <STORYCODES>
+<span class="Collodi_BellaAddormentataI link" id="ownlink_detail_ita_Collodi_BellaAddormentataI" onclick="findText('ita_Collodi_BellaAddormentataI.htm');"></span><STORYCODE>
+<span class="Collodi_BellaAddormentataII link" id="ownlink_detail_ita_Collodi_BellaAddormentataII" onclick="findText('ita_Collodi_BellaAddormentataII.htm');"></span><STORYCODE>
+<span class="Collodi_PelleDAsinoI link" id="ownlink_detail_ita_Collodi_PelleDAsinoI" onclick="findText('ita_Collodi_PelleDAsinoI.htm');"></span><STORYCODE>
+<span class="Collodi_PelleDAsinoII link" id="ownlink_detail_ita_Collodi_PelleDAsinoII" onclick="findText('ita_Collodi_PelleDAsinoII.htm');"></span><STORYCODE>
+<span class="Collodi_PelleDAsinoIII link" id="ownlink_detail_ita_Collodi_PelleDAsinoIII" onclick="findText('ita_Collodi_PelleDAsinoIII.htm');"></span><STORYCODE>
+<span class="Collodi_PuccettinoI link" id="ownlink_detail_ita_Collodi_PuccettinoI" onclick="findText('ita_Collodi_PuccettinoI.htm');"></span><STORYCODE>
+<span class="Collodi_PuccettinoII link" id="ownlink_detail_ita_Collodi_PuccettinoII" onclick="findText('ita_Collodi_PuccettinoII.htm');"></span><STORYCODE>
+<span class="Marchi_DeiTedeschi link" id="ownlink_detail_ita_Marchi_DeiTedeschi" onclick="findText('ita_Marchi_DeiTedeschi.htm');"></span><STORYCODE>
+<span class="Marchi_DueSposi link" id="ownlink_detail_ita_Marchi_DueSposi" onclick="findText('ita_Marchi_DueSposi.htm');"></span><STORYCODE>
+<span class="Marchi_NeiBoschi link" id="ownlink_detail_ita_Marchi_NeiBoschi" onclick="findText('ita_Marchi_NeiBoschi.htm');"></span><STORYCODE>
+<span class="Marchi_UnRegalo link" id="ownlink_detail_ita_Marchi_UnRegalo" onclick="findText('ita_Marchi_UnRegalo.htm');"></span><STORYCODES>
+<span class="Collodi_BellaAddormentataI link" id="buylink_detail_ita_Collodi_BellaAddormentataI"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>La Bella Addormentata</span>,&nbsp;<span>level AB, 1257 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Collodi_BellaAddormentataII link" id="buylink_detail_ita_Collodi_BellaAddormentataII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>La Madre Del Principe</span>,&nbsp;<span>level AB, 2272 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Collodi_PelleDAsinoI link" id="buylink_detail_ita_Collodi_PelleDAsinoI"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>Pelle D'Asino</span>,&nbsp;<span>level AB, 945 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Collodi_PelleDAsinoII link" id="buylink_detail_ita_Collodi_PelleDAsinoII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>La Principessa</span>,&nbsp;<span>level AB, 1693 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Collodi_PelleDAsinoIII link" id="buylink_detail_ita_Collodi_PelleDAsinoIII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>Il Principe</span>,&nbsp;<span>level AB, 2483 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Collodi_PuccettinoI link" id="buylink_detail_ita_Collodi_PuccettinoI"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>Puccettino</span>,&nbsp;<span>level AB, 1403 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Collodi_PuccettinoII link" id="buylink_detail_ita_Collodi_PuccettinoII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Carlo Collodi</span>,&nbsp;<span>Il Orco</span>,&nbsp;<span>level AB, 2056 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Marchi_DeiTedeschi link" id="buylink_detail_ita_Marchi_DeiTedeschi"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Emilio De Marchi</span>,&nbsp;<span>Ai Tempi dei Tedeschi</span>,&nbsp;<span>level BC, 2372 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Marchi_DueSposi link" id="buylink_detail_ita_Marchi_DueSposi"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Emilio De Marchi</span>,&nbsp;<span>Due Sposi in Viaggio</span>,&nbsp;<span>level BC, 2413 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Marchi_NeiBoschi link" id="buylink_detail_ita_Marchi_NeiBoschi"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Emilio De Marchi</span>,&nbsp;<span>Nei Boschi</span>,&nbsp;<span>level BC, 1869 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Marchi_UnRegalo link" id="buylink_detail_ita_Marchi_UnRegalo"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/italian"><span>Emilio De Marchi</span>,&nbsp;<span>Un Regalo alla Sposa</span>,&nbsp;<span>level BC, 1344 words</span></a></FIELDSET></FORM></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>

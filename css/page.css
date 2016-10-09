@@ -1,0 +1,203 @@
+a:hover { background-color: transparent }
+
+body, p, a, html
+{
+        mso-style-parent:"";
+        text-align: justify;
+       	text-underline: none;
+        text-decoration: none;
+        line-height: 18pt;
+        color: #386476; ;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 12pt;
+}
+
+img.noborder
+{
+        border: none;
+}
+
+table
+{
+        color: #386476;
+        mso-style-parent:"";
+        text-align: justify;
+       	text-underline: none;
+        text-decoration: none;
+        line-height: 17pt;
+        color: #386476;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 12pt;
+        border: 0pt;
+}
+
+img.leftbar
+{
+        border: none;
+}
+
+div.leftbar
+{
+        text-align: left;
+        line-height: 3pt;
+        color: #386476;
+        font-family: Arial, Helvetica, sans-serif ;
+        font-size: 2pt;
+}
+        
+A.atxt
+       {mso-style-parent:"";
+        text-align: justify;
+	line-height: 13pt;
+        COLOR: #386476;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 12pt;
+}
+
+A.mtxt1
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #386476;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt2
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #386486;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt3
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #386496;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt4
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864A6;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt5
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864B6;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt6
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864C6;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt7
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864D6;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt8
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864E6;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt9
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864F6;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt10
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864FF;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt11
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864FF;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt12
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864FF;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt13
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864FF;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+A.mtxt14
+       {mso-style-parent:"";
+        text-align: left;
+	line-height: 9pt;
+        COLOR: #3864FF;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 8pt;
+}
+
+div.ctxt
+       {mso-style-parent:"";
+       	background: transparent;
+	position: absolute;
+        visibility: hidden;
+        top: -1000;
+        left: -1000;
+        text-align: justify;
+	line-height: 13pt;
+        COLOR: 000000;
+        font-family:Arial, Helvetica, sans-serif ;
+        FONT-SIZE: 12pt;
+        border-top: 1pt solid black;
+	border-right: 1pt solid black;
+	border-bottom: 1pt solid black;
+	border-left: 1pt solid black;
+	background: pink;
+	color: black;
+	padding: 3pt 3pt 3pt 3pt;
+	z-index: 50;
+}

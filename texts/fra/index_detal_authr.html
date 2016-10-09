@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+               
+     <!--
+       Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+       For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+     -->    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">-->
+     <meta http-equiv="Content-Security-Policy" content="*">
+     <title>HypLern</title>
+               
+     <!-- HypLern references -->
+     <link href="../../css/index.css" rel="stylesheet" />
+     
+     <!-- Cordova reference, this is added to your app when it's built. -->
+     <script src="../../cordova.js"></script>
+     <script src="../../scripts/platformOverrides.js"></script>
+               
+     <script src="../../scripts/language.js"></script>
+     <script src="../../scripts/subhyplern.js"></script>
+     <script src="../../scripts/options.js"></script>
+     <script src="../../scripts/constants.js"></script>
+     <script src="../../scripts/keys.js"></script>
+ 
+   </head>
+   
+   <script language=JavaScript type=text/javascript>
+   var indexfilename = "index_detal_authr";
+   var indexlanguage = "fra";
+   var indexbacktarg = "../index.html";
+   </script>
+   
+   <body style="max-width: 100%;">
+     <div style="position: fixed; top: 0px; width: 100%; background-color: white; height: 75px; z-index: 19000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px;  width: 49%; background-color: white; border-top: solid lightgray 1pt; border-left:  solid lightgray 1pt; height: 20px; z-index: 21000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; border-top: solid white 1pt; border-right: solid white 1pt; height: 20px; z-index: 20000;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 75px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 76px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 77px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 78px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 79px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 80px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 81px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 82px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 83px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; left: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: absolute; top: 52px; right: 0px; width: 49%; background-color: transparent; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: transparent;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; left: 0px; width: 49%; background-color: white; height: 19px; z-index: 21000; text-align: right;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">AUTHOR/STORY&nbsp;</a></b>
+     </div>
+     <div class="link" onclick="sortIndex('index_detal_words');" style="position: fixed; top: 52px; right: 0px; width: 49%; background-color: lightgray; height: 19px; z-index: 20000; text-align: left;">
+       <b><a class="link" href="#" onclick="sortIndex('index_detal_words');" style="position: relative; top: 3px; font-family: arial; font-size: 12pt; text-underline: none; text-decoration: none; color: darkblue;">&nbsp;LEVEL/WORDS</a></b>
+     </div>
+     <div style="position: fixed; left: 0px; right: 0px; top: 10px; font-family: arial; font-size: 24pt; background-color: #780003; color: white; z-index: 20000;"><CENTER><B>HYPLERN</B></CENTER></div>
+     <div class="link" style="position: absolute; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; left: 10px; z-index: 100000;" onclick="sortIndex('index_large_authr');"><a class="link" href="#"><img src="../../images/AppType.gif"></a></div>
+     <div class="link" style="position: absolute; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppTrns.gif"></a></div>
+     <div class="link" style="position: fixed; top: 7px; right: 20px; z-index: 100000;"><a class="link" href="../../index.html"><img src="../../images/AppHome.gif"></a></div>
+     <div class="link" style="position: fixed; bottom: 7px; right: 20px; z-index: 9000000;"><a href="../../wanderlust.html"><img src="../../images/AppBack.gif"></a></div>
+     <br><br><br><br>
+     <div class="storytxtfolder">
+       <STORYCODES>
+<span class="Balzac_DrameAuBordDeLaMerI link" id="ownlink_detail_fra_Balzac_DrameAuBordDeLaMerI" onclick="findText('fra_Balzac_DrameAuBordDeLaMerI.htm');"></span><STORYCODE>
+<span class="Balzac_DrameAuBordDeLaMerII link" id="ownlink_detail_fra_Balzac_DrameAuBordDeLaMerII" onclick="findText('fra_Balzac_DrameAuBordDeLaMerII.htm');"></span><STORYCODE>
+<span class="Balzac_DrameAuBordDeLaMerIII link" id="ownlink_detail_fra_Balzac_DrameAuBordDeLaMerIII" onclick="findText('fra_Balzac_DrameAuBordDeLaMerIII.htm');"></span><STORYCODE>
+<span class="Balzac_LAM01LInconnue link" id="ownlink_detail_fra_Balzac_LAM01LInconnue" onclick="findText('fra_Balzac_LAM01LInconnue.htm');"></span><STORYCODE>
+<span class="Balzac_LAM02TroisSemaines link" id="ownlink_detail_fra_Balzac_LAM02TroisSemaines" onclick="findText('fra_Balzac_LAM02TroisSemaines.htm');"></span><STORYCODE>
+<span class="Balzac_LAM03LesConditions link" id="ownlink_detail_fra_Balzac_LAM03LesConditions" onclick="findText('fra_Balzac_LAM03LesConditions.htm');"></span><STORYCODE>
+<span class="Balzac_LAM04LaLettreFinale link" id="ownlink_detail_fra_Balzac_LAM04LaLettreFinale" onclick="findText('fra_Balzac_LAM04LaLettreFinale.htm');"></span><STORYCODE>
+<span class="Balzac_LAM05TristeExil link" id="ownlink_detail_fra_Balzac_LAM05TristeExil" onclick="findText('fra_Balzac_LAM05TristeExil.htm');"></span><STORYCODE>
+<span class="Balzac_LAM06UneFille link" id="ownlink_detail_fra_Balzac_LAM06UneFille" onclick="findText('fra_Balzac_LAM06UneFille.htm');"></span><STORYCODE>
+<span class="Balzac_LAM07UneAffaireMeurtriere link" id="ownlink_detail_fra_Balzac_LAM07UneAffaireMeurtriere" onclick="findText('fra_Balzac_LAM07UneAffaireMeurtriere.htm');"></span><STORYCODE>
+<span class="Balzac_LAM08Confidence link" id="ownlink_detail_fra_Balzac_LAM08Confidence" onclick="findText('fra_Balzac_LAM08Confidence.htm');"></span><STORYCODE>
+<span class="Balzac_LAM09LeMalade link" id="ownlink_detail_fra_Balzac_LAM09LeMalade" onclick="findText('fra_Balzac_LAM09LeMalade.htm');"></span><STORYCODE>
+<span class="Balzac_LAM10LaPassion link" id="ownlink_detail_fra_Balzac_LAM10LaPassion" onclick="findText('fra_Balzac_LAM10LaPassion.htm');"></span><STORYCODE>
+<span class="Balzac_LAM11NouvelleRencontre link" id="ownlink_detail_fra_Balzac_LAM11NouvelleRencontre" onclick="findText('fra_Balzac_LAM11NouvelleRencontre.htm');"></span><STORYCODE>
+<span class="Balzac_LAM12Bonheur link" id="ownlink_detail_fra_Balzac_LAM12Bonheur" onclick="findText('fra_Balzac_LAM12Bonheur.htm');"></span><STORYCODE>
+<span class="Guerber_BlancheNeige link" id="ownlink_detail_fra_Guerber_BlancheNeige" onclick="findText('fra_Guerber_BlancheNeige.htm');"></span><STORYCODE>
+<span class="Guerber_LaRoseMousseuse link" id="ownlink_detail_fra_Guerber_LaRoseMousseuse" onclick="findText('fra_Guerber_LaRoseMousseuse.htm');"></span><STORYCODE>
+<span class="Guerber_LaVilleSubmergee link" id="ownlink_detail_fra_Guerber_LaVilleSubmergee" onclick="findText('fra_Guerber_LaVilleSubmergee.htm');"></span><STORYCODE>
+<span class="Guerber_LeChatEtLeRenard link" id="ownlink_detail_fra_Guerber_LeChatEtLeRenard" onclick="findText('fra_Guerber_LeChatEtLeRenard.htm');"></span><STORYCODE>
+<span class="Guerber_LesQuatreSaisons link" id="ownlink_detail_fra_Guerber_LesQuatreSaisons" onclick="findText('fra_Guerber_LesQuatreSaisons.htm');"></span><STORYCODE>
+<span class="Guerber_LesTroisCitrons link" id="ownlink_detail_fra_Guerber_LesTroisCitrons" onclick="findText('fra_Guerber_LesTroisCitrons.htm');"></span><STORYCODE>
+<span class="Guerber_LesTroisOurs link" id="ownlink_detail_fra_Guerber_LesTroisOurs" onclick="findText('fra_Guerber_LesTroisOurs.htm');"></span><STORYCODE>
+<span class="Guerber_LesTroisSouhaits link" id="ownlink_detail_fra_Guerber_LesTroisSouhaits" onclick="findText('fra_Guerber_LesTroisSouhaits.htm');"></span><STORYCODE>
+<span class="Lemaitre_ABC link" id="ownlink_detail_fra_Lemaitre_ABC" onclick="findText('fra_Lemaitre_ABC.htm');"></span><STORYCODE>
+<span class="Lemaitre_DEFG link" id="ownlink_detail_fra_Lemaitre_DEFG" onclick="findText('fra_Lemaitre_DEFG.htm');"></span><STORYCODE>
+<span class="Lemaitre_HIJK link" id="ownlink_detail_fra_Lemaitre_HIJK" onclick="findText('fra_Lemaitre_HIJK.htm');"></span><STORYCODE>
+<span class="Lemaitre_LMN link" id="ownlink_detail_fra_Lemaitre_LMN" onclick="findText('fra_Lemaitre_LMN.htm');"></span><STORYCODE>
+<span class="Lemaitre_OP link" id="ownlink_detail_fra_Lemaitre_OP" onclick="findText('fra_Lemaitre_OP.htm');"></span><STORYCODE>
+<span class="Lemaitre_QRS link" id="ownlink_detail_fra_Lemaitre_QRS" onclick="findText('fra_Lemaitre_QRS.htm');"></span><STORYCODE>
+<span class="Lemaitre_TU link" id="ownlink_detail_fra_Lemaitre_TU" onclick="findText('fra_Lemaitre_TU.htm');"></span><STORYCODE>
+<span class="Lemaitre_VXYZ link" id="ownlink_detail_fra_Lemaitre_VXYZ" onclick="findText('fra_Lemaitre_VXYZ.htm');"></span><STORYCODE>
+<span class="Maupassant_LaConfession link" id="ownlink_detail_fra_Maupassant_LaConfession" onclick="findText('fra_Maupassant_LaConfession.htm');"></span><STORYCODE>
+<span class="Maupassant_LeBonheurI link" id="ownlink_detail_fra_Maupassant_LeBonheurI" onclick="findText('fra_Maupassant_LeBonheurI.htm');"></span><STORYCODE>
+<span class="Maupassant_LeBonheurII link" id="ownlink_detail_fra_Maupassant_LeBonheurII" onclick="findText('fra_Maupassant_LeBonheurII.htm');"></span><STORYCODE>
+<span class="Maupassant_Souvenir link" id="ownlink_detail_fra_Maupassant_Souvenir" onclick="findText('fra_Maupassant_Souvenir.htm');"></span><STORYCODE>
+<span class="Maupassant_WalterSchnaffsI link" id="ownlink_detail_fra_Maupassant_WalterSchnaffsI" onclick="findText('fra_Maupassant_WalterSchnaffsI.htm');"></span><STORYCODE>
+<span class="Maupassant_WalterSchnaffsII link" id="ownlink_detail_fra_Maupassant_WalterSchnaffsII" onclick="findText('fra_Maupassant_WalterSchnaffsII.htm');"></span><STORYCODE>
+<span class="Zola_LeCarnetDeDanse link" id="ownlink_detail_fra_Zola_LeCarnetDeDanse" onclick="findText('fra_Zola_LeCarnetDeDanse.htm');"></span><STORYCODE>
+<span class="Zola_UnBain link" id="ownlink_detail_fra_Zola_UnBain" onclick="findText('fra_Zola_UnBain.htm');"></span><STORYCODES>
+<span class="Balzac_DrameAuBordDeLaMerI link" id="buylink_detail_fra_Balzac_DrameAuBordDeLaMerI"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Drame Au Bord De La Mer I</span>,&nbsp;<span>level BC, 2338 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_DrameAuBordDeLaMerII link" id="buylink_detail_fra_Balzac_DrameAuBordDeLaMerII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Drame Au Bord De La Mer II</span>,&nbsp;<span>level BC, 2108 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_DrameAuBordDeLaMerIII link" id="buylink_detail_fra_Balzac_DrameAuBordDeLaMerIII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Drame Au Bord De La Mer III</span>,&nbsp;<span>level BC, 2863 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM01LInconnue link" id="buylink_detail_fra_Balzac_LAM01LInconnue"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>L'Inconnue</span>,&nbsp;<span>level BC, 1732 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM02TroisSemaines link" id="buylink_detail_fra_Balzac_LAM02TroisSemaines"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Trois Semaines</span>,&nbsp;<span>level BC, 943 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM03LesConditions link" id="buylink_detail_fra_Balzac_LAM03LesConditions"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Les Conditions</span>,&nbsp;<span>level BC, 1101 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM04LaLettreFinale link" id="buylink_detail_fra_Balzac_LAM04LaLettreFinale"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>La Lettre Finale</span>,&nbsp;<span>level BC, 1339 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM05TristeExil link" id="buylink_detail_fra_Balzac_LAM05TristeExil"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Triste Exil</span>,&nbsp;<span>level BC, 1291 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM06UneFille link" id="buylink_detail_fra_Balzac_LAM06UneFille"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Une Fille</span>,&nbsp;<span>level BC, 1652 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM07UneAffaireMeurtriere link" id="buylink_detail_fra_Balzac_LAM07UneAffaireMeurtriere"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Une Affaire Meurtri&#232;re</span>,&nbsp;<span>level BC, 1170 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM08Confidence link" id="buylink_detail_fra_Balzac_LAM08Confidence"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Confidence</span>,&nbsp;<span>level BC, 1316 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM09LeMalade link" id="buylink_detail_fra_Balzac_LAM09LeMalade"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Le Malade</span>,&nbsp;<span>level BC, 1365 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM10LaPassion link" id="buylink_detail_fra_Balzac_LAM10LaPassion"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>La Passion</span>,&nbsp;<span>level BC, 1256 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM11NouvelleRencontre link" id="buylink_detail_fra_Balzac_LAM11NouvelleRencontre"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Nouvelle Rencontre</span>,&nbsp;<span>level BC, 1248 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Balzac_LAM12Bonheur link" id="buylink_detail_fra_Balzac_LAM12Bonheur"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Honor&#233; de Balzac</span>,&nbsp;<span>Bonheur</span>,&nbsp;<span>level BC, 553 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_BlancheNeige link" id="buylink_detail_fra_Guerber_BlancheNeige"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>Blanche Neige</span>,&nbsp;<span>level AB, 629 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LaRoseMousseuse link" id="buylink_detail_fra_Guerber_LaRoseMousseuse"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>La Rose Mousseuse</span>,&nbsp;<span>level AB, 826 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LaVilleSubmergee link" id="buylink_detail_fra_Guerber_LaVilleSubmergee"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>La Ville Submergee</span>,&nbsp;<span>level AB, 1460 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LeChatEtLeRenard link" id="buylink_detail_fra_Guerber_LeChatEtLeRenard"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>Le Chat Et Le Renard</span>,&nbsp;<span>level AB, 745 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LesQuatreSaisons link" id="buylink_detail_fra_Guerber_LesQuatreSaisons"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>Les Quatre Saisons</span>,&nbsp;<span>level AB, 1866 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LesTroisCitrons link" id="buylink_detail_fra_Guerber_LesTroisCitrons"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>Les Trois Citrons</span>,&nbsp;<span>level AB, 3455 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LesTroisOurs link" id="buylink_detail_fra_Guerber_LesTroisOurs"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>Les Trois Ours</span>,&nbsp;<span>level AB, 835 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Guerber_LesTroisSouhaits link" id="buylink_detail_fra_Guerber_LesTroisSouhaits"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>H&#233;l&#232;ne Guerber</span>,&nbsp;<span>Les Trois Souhaits</span>,&nbsp;<span>level AB, 818 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_ABC link" id="buylink_detail_fra_Lemaitre_ABC"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>ABC</span>,&nbsp;<span>level AB, 836 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_DEFG link" id="buylink_detail_fra_Lemaitre_DEFG"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>DEFG</span>,&nbsp;<span>level AB, 567 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_HIJK link" id="buylink_detail_fra_Lemaitre_HIJK"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>HIJK</span>,&nbsp;<span>level AB, 628 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_LMN link" id="buylink_detail_fra_Lemaitre_LMN"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>LMN</span>,&nbsp;<span>level AB, 777 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_OP link" id="buylink_detail_fra_Lemaitre_OP"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>OP</span>,&nbsp;<span>level AB, 543 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_QRS link" id="buylink_detail_fra_Lemaitre_QRS"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>QRS</span>,&nbsp;<span>level AB, 765 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_TU link" id="buylink_detail_fra_Lemaitre_TU"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>TU</span>,&nbsp;<span>level AB, 428 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Lemaitre_VXYZ link" id="buylink_detail_fra_Lemaitre_VXYZ"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Jules Lema&#238;tre</span>,&nbsp;<span>VXYZ</span>,&nbsp;<span>level AB, 746 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Maupassant_LaConfession link" id="buylink_detail_fra_Maupassant_LaConfession"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Guy de Maupassant</span>,&nbsp;<span>La Confession</span>,&nbsp;<span>level BC, 1636 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Maupassant_LeBonheurI link" id="buylink_detail_fra_Maupassant_LeBonheurI"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Guy de Maupassant</span>,&nbsp;<span>Le Bonheur I</span>,&nbsp;<span>level BC, 843 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Maupassant_LeBonheurII link" id="buylink_detail_fra_Maupassant_LeBonheurII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Guy de Maupassant</span>,&nbsp;<span>Le Bonheur II</span>,&nbsp;<span>level BC, 1160 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Maupassant_Souvenir link" id="buylink_detail_fra_Maupassant_Souvenir"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Guy de Maupassant</span>,&nbsp;<span>Souvenir</span>,&nbsp;<span>level BC, 2139 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Maupassant_WalterSchnaffsI link" id="buylink_detail_fra_Maupassant_WalterSchnaffsI"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Guy de Maupassant</span>,&nbsp;<span>Walter Schnaffs I</span>,&nbsp;<span>level BC, 1052 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Maupassant_WalterSchnaffsII link" id="buylink_detail_fra_Maupassant_WalterSchnaffsII"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>Guy de Maupassant</span>,&nbsp;<span>Walter Schnaffs II</span>,&nbsp;<span>level BC, 1565 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zola_LeCarnetDeDanse link" id="buylink_detail_fra_Zola_LeCarnetDeDanse"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>&#201;mile Zola</span>,&nbsp;<span>Le Carnet De Danse</span>,&nbsp;<span>level BC, 2007 words</span></a></FIELDSET></FORM></span><STORYCODE>
+<span class="Zola_UnBain link" id="buylink_detail_fra_Zola_UnBain"><FORM><FIELDSET class="link" style="width: 90%; color: gray;"><a class="link" style="color: gray" href="https://learn-to-read-foreign-languages.com/collections/french"><span>&#201;mile Zola</span>,&nbsp;<span>Un Bain</span>,&nbsp;<span>level BC, 3194 words</span></a></FIELDSET></FORM></span><STORYCODES>
+       <br><br><br>
+     </div>
+     
+     <div style="position: fixed; bottom: 29px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.1;"></div>
+     <div style="position: fixed; bottom: 28px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.2;"></div>
+     <div style="position: fixed; bottom: 27px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.3;"></div>
+     <div style="position: fixed; bottom: 26px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.4;"></div>
+     <div style="position: fixed; bottom: 25px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.5;"></div>
+     <div style="position: fixed; bottom: 24px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.6;"></div>
+     <div style="position: fixed; bottom: 23px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.7;"></div>
+     <div style="position: fixed; bottom: 22px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.8;"></div>
+     <div style="position: fixed; bottom: 21px; width: 100%; background-color: white; height: 1px; z-index: 20000; opacity: 0.9;"></div>
+     <div style='position: fixed; text-align: center; bottom: 0px; width: 100%; height: 21px; background-color: white;'><center><b><span style='color: #888888;'>Copyright &#169; 2006-2016 Bermuda Word</span></b></center></div>
+                   
+     <span id="log"></span><br>
+     <span id="log_start"></span><br>
+     <span id="log_listing"></span><br>
+     <span id="log_linking"></span><br>
+     <span id="log_persdel"></span><br>
+     <span id="log_persave"></span><br>
+               
+   </body>
+ </html>
