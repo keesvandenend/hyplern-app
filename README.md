@@ -2,7 +2,7 @@
 
 This repository contains the code for the HypLern app for use in cordova.
 By default it contains a demo of Hungarian.
-An automated environment would take this code and convert it to another language with the necessary stories using the base source files for that language.
+An automated environment would take this code and convert it to another language with the necessary stories, using the base source files for that language.
 </br></br>
 <h2>Links to HypLern Readers in shops:</h2>
 <h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://www.microsoft.com/en-us/store/search/apps?q=hyplern" title="HypLern Reader App for Windows" target="_blank"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Windows</span></strong></span></a></span></h3>
