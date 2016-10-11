@@ -1,4 +1,4 @@
-"# hyplern" 
+<h1>hyplern</h1> 
 
 This repository contains the code for the HypLern app for use in cordova.
 By default it contains a demo of Hungarian.
