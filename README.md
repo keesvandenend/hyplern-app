@@ -1,6 +1,6 @@
 "# hyplern" 
 
-This repository contains the code for the HypLern app.
+This repository contains the code for the HypLern app for use in cordova.
 By default it contains a demo of Hungarian.
 An automated environment would take this code and convert it to another language with the necessary stories using the base source files for that language.
 
