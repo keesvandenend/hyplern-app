@@ -1,6 +1,6 @@
 <h1>hyplern</h1> 
 
-This repository contains the code for the HypLern app for use in cordova.
+This repository contains the code for the current (old) version of the HypLern app for use in cordova.
 By default it contains a demo of Hungarian.
 An automated environment would take this code and convert it to another language with the necessary stories, using the base source files for that language.
 </br></br>
@@ -17,3 +17,9 @@ An automated environment would take this code and convert it to another language
 
 <img src='https://cdn.shopify.com/s/files/1/0635/4489/files/M1B1UU2H454GPL-AD-SHOT01.png'></img>
 <img src='https://cdn.shopify.com/s/files/1/0635/4489/files/M1B1UU2H454GPL-AD-SHOT03.png'></img>
+
+</br>
+<h2>Screenprints HypLern German Reader:</h2>
+
+<img src='https://cdn.shopify.com/s/files/1/0635/4489/files/MB1ZB1LK24C9I-AD-SHOT01.png'></img>
+<img src='https://cdn.shopify.com/s/files/1/0635/4489/files/MB1ZB1LK24C9I-AD-SHOT03.png'></img>
