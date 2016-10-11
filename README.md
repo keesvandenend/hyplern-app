@@ -11,3 +11,9 @@ An automated environment would take this code and convert it to another language
 <h2>Screenprint HypLern Dutch Reader:</h2>
 
 <img src='https://cdn.shopify.com/s/files/1/0635/4489/files/MVRC7FILRWA9I-AD-SHOT01.png'></img>
+
+</br>
+<h2>Screenprints HypLern French Reader:</h2>
+
+<img src='https://cdn.shopify.com/s/files/1/0635/4489/files/M1B1UU2H454GPL-AD-SHOT01.png'></img>
+<img src='https://cdn.shopify.com/s/files/1/0635/4489/files/M1B1UU2H454GPL-AD-SHOT03.png'></img>
