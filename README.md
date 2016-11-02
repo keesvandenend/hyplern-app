@@ -1,9 +1,17 @@
 <h1>hyplern</h1> 
 
-This repository contains the code for the current (old) version of the HypLern app for use in cordova.
+<b>In progress</b>
+
+  <li>rewriting to ES6 syntax and using webpack</li>
+  <li>replacing pure javascript rendering with framework that has native support</li>
+
+<b>Description</b>
+
+<p>HypLern is a cross-platform educational App currently for 8 Languages (Dutch, German, French, Hungarian, Italian, Russian, Spanish and Swedish) published in the Amazon App Store, Google Play and the Microsoft App Shop, with the Apple Store on the way.</p>
+<p>This repository contains the code for the current (old) version of the HypLern app for use in cordova.
 By default it contains a demo of Hungarian.
-The automated script environment can take this code and convert it to another language with the necessary stories, using the base source files for that language.
-</br></br>
+The automated script environment can take this code and convert it to another language with the necessary stories, using the base source files for that language.</p>
+</br>
 <h2>Links to HypLern Readers in shops:</h2>
 <h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://www.microsoft.com/en-us/store/search/apps?q=hyplern" title="HypLern Reader App for Windows" target="_blank"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Windows</span></strong></span></a></span></h3>
 <h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=hyplern+app&amp;rh=i%3Aaps%2Ck%3Ahyplern+app" target="_blank" title="HypLern Reader App for Android"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Android</span></strong></span></a></span></h3>
