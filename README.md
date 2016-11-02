@@ -2,7 +2,7 @@
 
 <b>In progress</b>
 
-  <li>rewriting to ES6 syntax and using webpack</li>
+  <li>rewriting to <b>ES6 syntax</b> and using webpack</li>
   <li>replacing pure javascript rendering with framework that has native support</li>
 
 <b>Description</b>
