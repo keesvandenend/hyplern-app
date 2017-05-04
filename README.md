@@ -14,7 +14,12 @@ The automated script environment can take this code and convert it to another la
 </br>
 <h2>Links to HypLern Readers in shops:</h2>
 <h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://www.microsoft.com/en-us/store/search/apps?q=hyplern" title="HypLern Reader App for Windows" target="_blank"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Windows</span></strong></span></a></span></h3>
-<h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=hyplern+app&amp;rh=i%3Aaps%2Ck%3Ahyplern+app" target="_blank" title="HypLern Reader App for Android"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Android</span></strong></span></a></span></h3>
+
+<h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=hyplern+app&amp;rh=i%3Aaps%2Ck%3Ahyplern+app" target="_blank" title="HypLern Reader App for Android in Amazon App Store"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Android in Amazon App Store</span></strong></span></a></span></h3>
+
+<h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://play.google.com/store/apps/developer?id=Bermuda%20Word&hl=en" target="_blank" title="HypLern Reader App for Android on Google Play Store"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Android on Google Play Store</span></strong></span></a></span></h3>
+
+<h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://itunes.apple.com/in/developer/adrianus-van-den-end/id1159185482" target="_blank" title="HypLern Reader App for iOS in Apple iTunes"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for iOS in Apple iTunes</span></strong></span></a></span></h3>
 </br>
 <h2>Screenprint HypLern Dutch Reader:</h2>
 
