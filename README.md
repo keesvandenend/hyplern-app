@@ -1,10 +1,5 @@
 <h1>hyplern</h1> 
 
-<b>In progress</b>
-
-  <li>rewriting to <b>ES6 syntax</b> and using webpack</li>
-  <li>replacing pure javascript rendering with framework that has native support</li>
-
 <b>Description</b>
 
 <p>HypLern is a cross-platform educational App currently for 8 Languages (Dutch, German, French, Hungarian, Italian, Russian, Spanish and Swedish) published in the Amazon App Store, Google Play and the Microsoft App Shop, with the Apple Store on the way.</p>
@@ -21,7 +16,7 @@ The automated script environment can take this code and convert it to another la
 <h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://play.google.com/store/apps/developer?id=Bermuda%20Word&hl=en" target="_blank" title="HypLern Reader App for Android on Google Play Store"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for Android on Google Play Store</span></strong></span></a></span></h3> (ended)
 
 <h3 style="text-align: center;"><span style="text-decoration: underline;"><a href="https://itunes.apple.com/in/developer/adrianus-van-den-end/id1159185482" target="_blank" title="HypLern Reader App for iOS in Apple iTunes"><span style="color: #0000ff;"><strong style="line-height: 1.5;"><span style="line-height: 1.4;">Reader App with interlinear or pop-up format for iOS in Apple iTunes</span></strong></span></a></span></h3> (all ended apart from the french reader)
-</br>
+</br></br>
 <h2>Screenprint HypLern Dutch Reader:</h2>
 
 <img src='https://cdn.shopify.com/s/files/1/0635/4489/files/MVRC7FILRWA9I-AD-SHOT01.png'></img>
